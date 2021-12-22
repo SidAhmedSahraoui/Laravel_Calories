@@ -48,7 +48,7 @@
                 <br>
                 <div style='width:150px,height:150px,background:white'>
                     <h1>
-                        <a href="/new" style='color:yellow'>Link</a>
+                        My New page on Laravel
                     </h1>
                 </div>      
             </div>
