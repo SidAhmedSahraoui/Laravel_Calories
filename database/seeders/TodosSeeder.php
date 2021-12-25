@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
-class todos extends Seeder
+class TodosSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,6 +13,6 @@ class todos extends Seeder
      */
     public function run()
     {
-        //
+        factory(TodoFactory::class)->create();
     }
 }
