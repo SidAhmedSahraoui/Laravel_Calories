@@ -4,8 +4,7 @@ namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-
-class clientFactory extends Factory
+class todoFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -15,8 +14,9 @@ class clientFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $faker->sentence(2),
-            'completed' => $faker->TRUE 
+            'title' =>  $faker->sentence(3),
+            'description' => $faker->paragraph(3),
+            'done' => false
         ];
     }
 }
