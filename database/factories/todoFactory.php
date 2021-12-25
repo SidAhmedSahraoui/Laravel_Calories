@@ -2,10 +2,15 @@
 
 namespace Database\Factories;
 
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
 class TodoFactory extends Factory
 {
+
+    protected $model = Todo::class;
+
     /**
      * Define the model's default state.
      *
@@ -15,7 +20,7 @@ class TodoFactory extends Factory
     {
         return [
             'title' => $this->faker->sentence(3),
-            'description' =>  $this->faker->paragraph(3),
+            'description' => $this->faker->paragraph(3),
             'done' => false,
       
         ];
