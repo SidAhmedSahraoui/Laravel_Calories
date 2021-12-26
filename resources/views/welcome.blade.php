@@ -1,4 +1,8 @@
-@extends('layout.app') @section('content')
+@extends('layout.app') 
+@section('title') 
+{{$title}}
+@endsection
+@section('content')
 <div
     class="
         relative
@@ -11,6 +15,6 @@
         sm:pt-0
     "
 >
-    <h1>hello from home</h1>
+    <h1>hello from {{$title}}</h1>
 </div>
 @endsection

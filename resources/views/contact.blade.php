@@ -1,4 +1,7 @@
 @extends('layout.app')
+@section('title') 
+{{$title}}
+@endsection
 @section('content')
 <div
     class="
@@ -12,6 +15,6 @@
         sm:pt-0
     "
 >
-    <h1>hello from contact</h1>
+    <h1>hello from {{$title}}</h1>
 </div>
 @endsection
