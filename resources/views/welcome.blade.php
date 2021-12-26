@@ -13,6 +13,7 @@
         dark:bg-gray-900
         py-4
         sm:pt-0
+        redone
     "
 >
     <h1>hello from {{$title}}</h1>

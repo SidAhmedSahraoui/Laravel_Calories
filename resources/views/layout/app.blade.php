@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+        <link rel="stylesheet" href="/resources/sass/welcome.scss" />
+        @yield('style')
         <title>Calories | @yield('title')</title>
 
         <!-- Styles -->
@@ -74,6 +75,6 @@
                 <a href="/contact">Contact</a>
             </nav>
         </div>
-        @yield('content')
+        <div class="container">@yield('content')</div>
     </body>
 </html>
