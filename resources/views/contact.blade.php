@@ -1,4 +1,4 @@
-@extends('layout.app') 
+@extends('layout.app')
 @section('content')
 <div
     class="
@@ -12,7 +12,6 @@
         sm:pt-0
     "
 >
-<a href="/">home</a>
-<a href="about">about</a>
+    <h1>hello from contact</h1>
 </div>
 @endsection

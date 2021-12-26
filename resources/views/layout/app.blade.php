@@ -48,6 +48,32 @@
         </style>
     </head>
     <body class="antialiased">
+        <div
+            style="
+                background-color: aqua;
+                border-bottom: 3px solid rgb(2, 148, 148);
+            "
+        >
+            <nav
+                style="
+                    color: rgb(73, 67, 67);
+                    font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS,
+                        sans-serif;
+                    font-weight: 600;
+                    font-size: large;
+                    display: flex;
+                    justify-content: space-evenly;
+                    width: 30%;
+                    margin: auto;
+                    padding-top: 1.2rem;
+                    padding-bottom: 1.2rem;
+                "
+            >
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+            </nav>
+        </div>
         @yield('content')
     </body>
 </html>
