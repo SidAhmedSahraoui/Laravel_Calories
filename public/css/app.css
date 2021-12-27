@@ -1,7 +1,29 @@
-.foo {
-    background-color: rgb(179, 153, 153);
+.container {
+    width: 60%;
+    margin: auto;
+    border: 3px solid rgb(75, 69, 69);
+    text-align: center;
+    margin-top: 3rem;
+    background-color: rgb(216, 191, 154);
+    box-shadow: 3px 8px 12px rgb(94, 69, 33);
+    border-radius: 8px;
 }
 span {
-    color: brown;
+    color: rgb(245, 45, 45);
+}
+button {
+    background-color: rgb(25, 192, 122);
+    border-bottom: 3px solid rgb(18, 114, 74);
+    border-right: 3px solid rgb(18, 114, 74);
+    margin: 2rem;
+    padding: 8px 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(44, 42, 38);
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:focus {
+    border: none;
 }
 

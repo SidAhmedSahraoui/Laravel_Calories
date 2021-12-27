@@ -17,6 +17,12 @@
         redone
     "
 >
-    <h1>hello from <span>{{$title}}</span></h1>
+    <div class="container">
+        <h1>
+            Welcome to <span>Calories</span> calculator
+        </h1>
+        <a href="/"><button>Login</button></a>
+        <a href="/"><button>Register</button></a>
+    </div>
 </div>
 @endsection

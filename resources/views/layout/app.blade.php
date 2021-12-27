@@ -75,7 +75,7 @@
                 <a href="/contact">Contact</a>
             </nav>
         </div>
-        <div class="container">@yield('content')</div>
+        <div>@yield('content')</div>
         <footer class="foo">
             hello from footer
         </footer>
