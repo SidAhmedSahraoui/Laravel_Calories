@@ -26,4 +26,4 @@ Route::get('contact', function (){
     return view('contact')->with('title',$title);
   });
 
-Route::resource('posts', 'PostsController');
+Route::resource('posts', 'PostController');
