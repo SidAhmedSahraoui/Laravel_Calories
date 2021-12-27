@@ -1,4 +1,5 @@
 @extends('layout.app') 
+
 @section('title') 
 {{$title}}
 @endsection
@@ -16,6 +17,6 @@
         redone
     "
 >
-    <h1>hello from {{$title}}</h1>
+    <h1>hello from <span>{{$title}}</span></h1>
 </div>
 @endsection
