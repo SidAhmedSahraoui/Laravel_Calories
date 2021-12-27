@@ -1,6 +1,6 @@
 @extends('layout.app')
 @section('content')
     <h1>
-      github
+      how to build your own dataset
     </h1>  
 @endsection
