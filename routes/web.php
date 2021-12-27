@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,4 +27,4 @@ Route::get('contact', function (){
     return view('contact')->with('title',$title);
   });
 
-Route::resource('posts', 'PostController');
+  Route::resource('/posts', 'App\Http\Controllers\PostController');
