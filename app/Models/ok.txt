@@ -1,0 +1,14 @@
+ $table->string('title');
+            $table->mediumText('core');
+            $table->integer('calories');
+
+
+
+
+
+
+
+
+             protected $title = 'posts';
+    public $primaryKey = 'id';
+    public $timestamps = true ;

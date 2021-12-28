@@ -1,12 +1,13 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
     protected $title = 'posts';
     public $primaryKey = 'id';
-    public $timestamps = true ;
+    public $timestamps = True ;
 }
