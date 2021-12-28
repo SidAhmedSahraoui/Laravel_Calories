@@ -3,7 +3,7 @@
     <h1>
       Posts
     </h1>  
-    @if(count($posts) > 1)
+    @if(count($posts) > 0)
         @foreach($posts as $post)
             <div class="well">
               <h3>
@@ -14,6 +14,7 @@
               </p>
             </div>
         @endforeach
+        {{$posts -> links()}}
     @else
         <h3>No Data Found</h3>
     @endif
