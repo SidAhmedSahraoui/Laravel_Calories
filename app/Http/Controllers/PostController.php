@@ -14,13 +14,13 @@ class PostController extends Controller
      */
     public function index()
     {
-        //$posts = Post::all();
+        $posts = Post::all();
         //$posts = Post::orderBy('title','desc')->get();
         //$posts = Post::orderBy('title','asc')->get();
         //return Post::where('title','veg')->get();
         //$posts = DB::select('SELECT * FROM posts');
         //$posts = Post::orderBy('title','desc')->take(2)->get();
-        $posts = Post::orderBy('title','desc')->paginate(1);
+        //$posts = Post::orderBy('title','desc')->paginate(1);
         return view('pages.index')->with('posts', $posts);
     }
 
@@ -31,7 +31,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.create');
     }
 
     /**

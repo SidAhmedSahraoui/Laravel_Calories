@@ -76,9 +76,12 @@
                 <a href="/posts">Posts</a>
             </nav>
         </div>
-        <div>@yield('content')</div>
-        <footer class="foo">
-            hello from footer
-        </footer>
+        <div>
+            @include('layout.alert')
+        </div>
+        <div>
+            @yield('content')
+        </div>
+        
     </body>
 </html>
