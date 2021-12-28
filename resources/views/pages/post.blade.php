@@ -1,5 +1,6 @@
 @extends('layout.app')
 @section('content')
+<a href="/posts"><button class="btn btn-default">Go Back</button></a>
     <h1>
         {{$post ->title}}
     </h1>  
