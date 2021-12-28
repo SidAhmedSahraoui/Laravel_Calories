@@ -7,7 +7,7 @@
         @foreach($posts as $post)
             <div class="well">
               <h3>
-                {{$post ->title}}
+               <a href="/posts/{{$post -> id}}">  {{$post ->title}} </a>
               </h3>
               <p>
                 every (100 g) of  {{$post ->title}} like : {{$post ->core}} contain {{$post -> calories}} calories
