@@ -28,6 +28,3 @@ Route::get('contact', function (){
   });
 
   Route::resource('/posts', 'App\Http\Controllers\PostController');
-  Route::get('dash',function (){
-    return view('dash');
-  });
