@@ -1,5 +1,7 @@
-body {
-    background-image: url(/images/veg.jpg?b8f7938d0af50cdf46ec50dbbfc87012);
+.main-cont {
+    background-image: url(/images/food.jpg?da65cd043f1640dda058c185924c1290);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main-title {
     color: #1a202c;
@@ -7,6 +9,13 @@ body {
     font-weight: 600;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sub-title {
+    color: #1a202c;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
 }
 .content {
     width: 80%;

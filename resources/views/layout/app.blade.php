@@ -48,7 +48,7 @@
             }
         </style>
     </head>
-    <body class="antialiased">
+    <body @yield('main-cont') class="antialiased">
         <div
             style="
                 background-color: aqua;
