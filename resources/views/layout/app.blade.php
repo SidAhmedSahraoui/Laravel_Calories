@@ -79,7 +79,7 @@
         <div>
             @include('layout.alert')
         </div>
-        <div>
+        <div class="content">
             @yield('content')
         </div>
         
