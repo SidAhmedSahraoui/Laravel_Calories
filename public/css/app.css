@@ -1,3 +1,13 @@
+body {
+    background-image: url(/images/veg.jpg?b8f7938d0af50cdf46ec50dbbfc87012);
+}
+.main-title {
+    color: #1a202c;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 .content {
     width: 80%;
     border: 2px solid #cbd5e0;
@@ -10,14 +20,29 @@
 span {
     color: rgb(245, 45, 45);
 }
+nav {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(73, 67, 67);
+    font-weight: 600;
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin: auto;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
 .btn {
     margin: 2rem;
     padding: 8px 12px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     color: rgb(230, 227, 223);
     border-radius: 8px;
     cursor: pointer;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .btn-primary {
     background-color: rgb(25, 192, 122);

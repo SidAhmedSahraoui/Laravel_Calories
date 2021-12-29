@@ -18,7 +18,7 @@
     "
 >
     <div class="container">
-        <h1>
+        <h1 class="main-title">
             Welcome to <span>Calories</span> calculator
         </h1>
         <a href="/"><button class="btn btn-primary">Login</button></a>
