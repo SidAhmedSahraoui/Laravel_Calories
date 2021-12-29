@@ -95,8 +95,36 @@ nav {
 }
 .alert-danger {
     background-color: #fa5968;
+    border-bottom: 3px solid #9c2d38;
+    border-right: 3px solid #9c2d38;
 }
 .alert-success {
     background-color: #18cb9a;
+    border-bottom: 3px solid rgb(18, 114, 74);
+    border-right: 3px solid rgb(18, 114, 74);
+}
+.post-card {
+    border: 3px solid #7996ce;
+    width: 550px;
+    margin: 12px auto;
+    border-radius: 8px;
+    padding: 25px 12px;
+}
+
+.card-core {
+    font-size: 18px;
+    font-weight: 300;
+}
+.card-title {
+    font-size: 26px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0%;
+}
+.post-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 

@@ -3,11 +3,11 @@
     <h1>
         {{$post ->title}}
     </h1>  
-            <div class="well">
-              <h3>
-                    This is the description of this product
+            <div class="post-card">
+              <h3 class="card-title">
+                    Hey 👋 Do you know that 
               </h3>
-              <p>
+              <p class="card-core">
                 every (100 g) of  {{$post ->title}} like : {{$post ->core}} contain {{$post -> calories}} calories
               </p>
             </div>
