@@ -77,7 +77,8 @@ class PostController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = Post::find($id);
+        return view('pages.edit')->with('post', $post);
     }
 
     /**
@@ -89,7 +90,18 @@ class PostController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'title' => 'required',
+            'core' => 'required',
+            'calories' => 'required'
+        ]);
+
+        $post = Post::find($id) ;
+        $post->title = $request->input('title') ;
+        $post->core = $request->input('core') ;
+        $post->calories = $request->input('calories') ;
+        $post->save();
+        return redirect('/posts')->with('success', 'Post Updated');
     }
 
     /**
@@ -100,6 +112,8 @@ class PostController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Post::find($id) ;
+        $post->delete();
+        return redirect('/posts')->with('danger', 'Post Removed');
     }
 }

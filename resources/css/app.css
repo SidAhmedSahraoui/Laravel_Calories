@@ -27,7 +27,7 @@
     margin: 32px auto;
 }
 span {
-    color: rgb(245, 45, 45);
+    color: rgb(214, 58, 58);
 }
 nav {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -63,11 +63,26 @@ nav {
     border-bottom: 3px solid rgb(23, 71, 126);
     border-right: 3px solid rgb(23, 71, 126);
 }
+.btn-danger {
+    background-color: #fa5968;
+    border-bottom: 3px solid #9c2d38;
+    border-right: 3px solid #9c2d38;
+}
 .btn-secondary:focus {
     border: 3px solid rgb(54, 135, 228);
 }
 .btn-primary:focus {
     border: 3px solid rgb(38, 236, 154);
+}
+.btn-danger:focus {
+    border: 3px solid #ff5d6d;
+}
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 550px;
+    margin: auto;
 }
 .alert {
     padding: 15px;
