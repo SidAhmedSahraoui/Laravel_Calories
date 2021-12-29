@@ -1,6 +1,5 @@
 @extends('layout.app')
 @section('content')
-<a href="/posts"><button class="btn btn-default">Go Back</button></a>
     <h1>
         Create New Post
     </h1>  
@@ -12,6 +11,7 @@
                   <input type="number" name="calories" id="cal">
                   <input type="submit" class="btn btn-primary">
               </form>
-          
+    <a href="/posts"><button class="btn btn-secondary">Go Back</button></a>
+
        
 @endsection

@@ -21,8 +21,8 @@
         <h1>
             Welcome to <span>Calories</span> calculator
         </h1>
-        <a href="/"><button>Login</button></a>
-        <a href="/"><button>Register</button></a>
+        <a href="/"><button class="btn btn-primary">Login</button></a>
+        <a href="/"><button class="btn btn-secondary">Register</button></a>
     </div>
 </div>
 @endsection

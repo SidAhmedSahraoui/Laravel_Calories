@@ -1,6 +1,5 @@
 @extends('layout.app')
 @section('content')
-<a href="/posts"><button class="btn btn-default">Go Back</button></a>
     <h1>
         {{$post ->title}}
     </h1>  
@@ -12,5 +11,6 @@
                 every (100 g) of  {{$post ->title}} like : {{$post ->core}} contain {{$post -> calories}} calories
               </p>
             </div>
-       
+    <a href="/posts"><button class="btn btn-secondary">Go Back</button></a>
+
 @endsection

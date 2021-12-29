@@ -4,26 +4,36 @@
     border: 3px solid rgb(75, 69, 69);
     text-align: center;
     margin-top: 3rem;
-    background-color: rgb(216, 191, 154);
-    box-shadow: 3px 8px 12px rgb(94, 69, 33);
+    background-color: rgb(211, 204, 195);
+    box-shadow: 3px 8px 12px rgb(92, 89, 86);
     border-radius: 8px;
 }
 span {
     color: rgb(245, 45, 45);
 }
-button {
-    background-color: rgb(25, 192, 122);
-    border-bottom: 3px solid rgb(18, 114, 74);
-    border-right: 3px solid rgb(18, 114, 74);
+.btn {
     margin: 2rem;
     padding: 8px 12px;
     font-size: 18px;
     font-weight: 600;
-    color: rgb(44, 42, 38);
+    color: rgb(230, 227, 223);
     border-radius: 8px;
     cursor: pointer;
 }
-button:focus {
-    border: none;
+.btn-primary {
+    background-color: rgb(25, 192, 122);
+    border-bottom: 3px solid rgb(18, 114, 74);
+    border-right: 3px solid rgb(18, 114, 74);
+}
+.btn-secondary {
+    background-color: rgb(32, 103, 184);
+    border-bottom: 3px solid rgb(23, 71, 126);
+    border-right: 3px solid rgb(23, 71, 126);
+}
+.btn-secondary:focus {
+    border: 3px solid rgb(54, 135, 228);
+}
+.btn-primary:focus {
+    border: 3px solid rgb(38, 236, 154);
 }
 
