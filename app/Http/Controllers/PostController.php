@@ -48,7 +48,13 @@ class PostController extends Controller
             'calories' => 'required'
         ]);
 
-        return 123; 
+        $post = new Post ;
+        $post->title = $request->input('title') ;
+        $post->core = $request->input('core') ;
+        $post->calories = $request->input('calories') ;
+        $post->save();
+        return redirect('/posts')->with('success', 'Post Created');
+
     }
 
     /**
