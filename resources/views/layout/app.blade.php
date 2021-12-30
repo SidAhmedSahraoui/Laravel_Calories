@@ -56,6 +56,12 @@
         >
         <nav>
             @guest
+            <div class="guest-nav">
+                <div class="brand">
+                    CaloriesCalculator
+                </div>
+
+                <div>
             @if (Route::has('login'))
                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
             @endif
@@ -63,7 +69,8 @@
             @if (Route::has('register'))
                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
             @endif
-          
+                </div>
+            </div>
         @else
                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                     {{ Auth::user()->name }}
