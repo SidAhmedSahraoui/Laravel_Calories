@@ -55,11 +55,7 @@
                 border-bottom: 3px solid rgb(2, 148, 148);
             "
         >
-            <nav
-                style="
-                   
-                "
-            >
+            <nav>
                 <a href="/">Home</a>
                 <a href="/about">About</a>
                 <a href="/contact">Contact</a>

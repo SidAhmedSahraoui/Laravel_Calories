@@ -1,4 +1,7 @@
 @extends('layout.app')
+@section('title') 
+Posts
+@endsection
 @section('content')
     <h1>
       Posts
