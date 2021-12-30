@@ -25,8 +25,8 @@
         <h3 class="sub-title">
             create your account or sign in and start your diet !
         </h3>
-        <a href="/"><button class="btn btn-primary">Login</button></a>
-        <a href="/"><button class="btn btn-secondary">Register</button></a>
+        <a href="/login"><button class="btn btn-primary">Login</button></a>
+        <a href="/register"><button class="btn btn-secondary">Register</button></a>
     </div>
 </div>
 @endsection

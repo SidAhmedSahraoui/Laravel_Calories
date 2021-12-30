@@ -28,3 +28,6 @@ Route::get('contact', function (){
   });
 
   Route::resource('/posts', 'App\Http\Controllers\PostController');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

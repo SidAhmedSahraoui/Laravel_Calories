@@ -1,6 +1,8 @@
-.foo {
-    background-color: rgb(179, 153, 153);
-}
-span {
-    color: brown;
-}
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
