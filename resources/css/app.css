@@ -145,3 +145,8 @@ nav {
     flex-direction: row;
     justify-content: space-between;
 }
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
