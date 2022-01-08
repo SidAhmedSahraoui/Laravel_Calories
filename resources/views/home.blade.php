@@ -1,7 +1,6 @@
 @extends('layout.app')
 
 @section('content')
-<div class="main">
     <div class="sidbar">
         hello there
     </div>
@@ -18,6 +17,5 @@
             </div>
         </div>
     </div>
-</div>
 
 @endsection
