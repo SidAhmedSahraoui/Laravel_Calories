@@ -1,6 +1,6 @@
 ## About Project
 
-**Calories**
+**Calories** is a
 Laravel web application for saving , editing and deleting posts about calories and their values
 
 ### Screenshots
