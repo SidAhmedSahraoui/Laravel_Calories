@@ -1,7 +1,5 @@
 .main-cont {
-    background-image: url("../img/food.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(221, 193, 150);
 }
 .main-title {
     color: #1a202c;
